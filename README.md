@@ -9,7 +9,7 @@ Download [golang] (https://golang.org/doc/install?download=go1.7.3.windows-amd64
  - Add C:\Go by editing system variable path in Environment variable 
  - Add New user variable
     - Variable name : GOPATH
-    - Variable value : C:\Go
+    - Variable value : D:\git\gostart
     
 ####Application folder structure:
 path D:\git\gostart
@@ -33,7 +33,7 @@ path D:\git\gostart
 ####Environment Setup
   - To check environment command, run the following command
   
-        D:\git\gostart> env  
+        D:\git\gostart>go env  
   - Set GOPATH
   
         D:git\gostart> set GOPATH=d:git\gostart
