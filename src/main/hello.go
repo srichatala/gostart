@@ -13,5 +13,5 @@ func someFunc(w http.ResponseWriter, req *http.Request){
 }
 
 func aboutFunc(w http.ResponseWriter, req *http.Request){
-    w.Write([]byte("Welcome to about page of Go"))
+    w.Write([]byte("About page"))
 }
